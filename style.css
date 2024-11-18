@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&display=swap');
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 800;
+  font-style: normal;
+    color: #fd9800;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,91,9,1) 24%, rgba(83,67,0,1) 70%, rgba(62,44,0,1) 100%);
+  }
+  .tasks__title {
+    margin: 50px 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+   }
+  .tasks__list {
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  .tasks__item {
+    transition: background-color 0.5s;
+    margin-bottom: 10px;
+    padding: 5px;
+  
+    text-align: center;
+    border: 2px dashed #b2d9d0;
+    border-radius: 10px;
+    cursor: move;
+    background-color: #dff2ef;
+  
+    transition: background-color 0.5s;
+  }
+  
+  .tasks__item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .selected {
+    opacity: 0.6;
+  }
